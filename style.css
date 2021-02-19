@@ -32,7 +32,6 @@
     border: 20px solid black;
 }
 
-
 #square{
     width: 100px;
     height: 100px;
@@ -57,5 +56,6 @@
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 150px;
     font-weight: bold;
+
 }
 
