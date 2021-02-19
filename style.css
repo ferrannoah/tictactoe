@@ -4,10 +4,10 @@
 }
 
 #game{
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px;
     background-color: black;
     padding: 5px;
     margin: auto;
@@ -18,29 +18,24 @@
     background-color: white;
     border: 5px solid black;
     position: relative;
-    min-width: 190px;
-    min-height: 190px;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 #circle{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background-color: white;
     transform: translate(45%, 45%);
     box-sizing: border-box;
-    border: 20px solid black;
-}
-
-#square{
-    width: 100px;
-    height: 100px;
+    border: 15px solid black;
 }
 
 #X{
     color: black;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 150px;
+    font-size: 115px;
     font-weight: bold;
     text-align: center;
     transform: translate(0,-3%);
